@@ -1,0 +1,47 @@
+# Editor backup / temporary files
+*.bak
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*~
+
+# Simulator generated files
+*.wlf
+*.cr.mti
+*.mpf
+*.qdb
+*.qpg
+*.qtl
+*.vstf
+vcst_rtdb/
+vcst_rtdb.bak/
+work/
+
+# Simulator logs / temporary configuration
+transcript
+vcst_session.log
+vcst_session.log.bak
+vcst_command.log
+.vcstPref
+novas.conf
+novas.rc
+
+# Generated simulator directories
+sim/**/work/
+sim/**/vcst_rtdb/
+sim/**/vcst_rtdb.bak/
+
+# Proprietary / tool-specific library files
+*.db
+*.alib
+
+# Reference documents - kept locally, not committed
+APB_SPI_lab_manual_v3.pdf
+ARM_AMBA3_APB.pdf
+S12SPIV3.pdf
+
+# Additional generated simulation/synthesis artifacts
+sim/**/wlf*
+synth/cksum_dir/
